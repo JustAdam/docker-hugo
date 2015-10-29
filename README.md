@@ -1,7 +1,7 @@
 docker-hugo
 ===========
 
-A Docker imagae for [hugo](http://gohugo.io), a very fast static site generator.
+A Docker image for [hugo](http://gohugo.io), a very fast static site generator.
 
 # Build the image
 
