@@ -1,6 +1,6 @@
-FROM alpine:3.2
+FROM alpine:3.4
 
-ADD hugo /usr/bin/hugo
+ADD hugo /bin/hugo
 ADD LICENSE.md /LICENSE.md
 
 # Generated output from hugo will be stored here
@@ -11,4 +11,4 @@ VOLUME ["/content"]
 
 EXPOSE 1313
 
-ENTRYPOINT ["/usr/bin/hugo"]
+ENTRYPOINT ["/bin/hugo"]
